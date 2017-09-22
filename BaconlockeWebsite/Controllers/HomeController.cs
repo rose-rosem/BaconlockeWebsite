@@ -1,0 +1,53 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace BaconlockeWebsite.Controllers
+{
+    public class HomeController : Controller
+    {
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+        public ActionResult Advantage()
+        {
+            return View();
+        }
+
+        public ActionResult Course()
+        {
+            return View();
+        }
+
+        public ActionResult StudentCase()
+        {
+            return View();
+        }
+        public ActionResult Download()
+        {
+            return View();
+        }
+        public ActionResult HelpFile()
+        {
+            return View();
+        }
+        public ActionResult About()
+        {
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            return View();
+        }
+
+        public ActionResult Methodogy()
+        {
+            return View();
+        }
+    }
+}
