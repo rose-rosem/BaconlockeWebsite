@@ -32,15 +32,32 @@
             <div class="row">
                 <div class="container">
                     <div class="row">
-                        <!-- Start Header Navigation -->
+                        <div class="attr-nav">
+                            <ul>
+                                <li class="dropdown cart-menu">
+                                    <a href="http://wpa.qq.com/msgrd?v=3&uin=825021872&site=qq&menu=yes" target="_blank" style="padding:19px 10px;">
+                                        <img src="~/assets/images/QQ.png" alt="QQ在线客服" style="width:40px;" title="QQ在线咨询" />
+                                    </a>
+                                </li>
+                                <li class="dropdown cart-menu">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" style="padding:19px 10px;">
+                                        <img src="~/assets/images/wechat2.png" alt="微信号" style="height:41px;" title="微信号" />
+                                    </a>
+                                    <ul class="dropdown-menu" style="left:-110px;">
+                                        <li>
+                                            <img src="~/assets/images/weixin.png" alt="微信号" width="174" style="margin-left:11px;"/>
+                                        </li>
+                                        <li style="text-align:center;">微信扫一扫 关注培洛科技</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                                 <i class="fa fa-bars"></i>
                             </button>
-                            <a class="navbar-brand" href="/"><img src="~/assets/images/logov1.png" class="logo" alt=""></a>
+                            <a class="navbar-brand" href="#brand"><img src="assets/images/logov1.png" class="logo" alt="LOGO" title="培洛科技"></a>
                         </div>
-                        <!-- End Header Navigation -->
-                        <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="navbar-menu">
                             <ul class="nav navbar-nav navbar-center" data-in="fadeIn" data-out="fadeOut">
                                 <li><a href="/">首页</a></li>
@@ -57,21 +74,55 @@
                                         <li><a href="/Home/Methodogy">培洛方法论</a></li>
                                     </ul>
                                 </li>
-                                <li><a style="font-size:24px;color:#13A0B2;font-weight:bold;">400-878-4867</a></li>
+                                <li><a style="font-size:24px;color:#13A0B2;font-weight:bold;" title="咨询热线">400-878-4867</a></li>
+
                             </ul>
-                        </div><!-- /.navbar-collapse -->
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </nav>
-    <!-- End off Nav -->
+
 
     <div class="culmn">
 
         @RenderBody()
 
-
+        <section id="localseo" class="localseo fix sections3" style="padding-top: 0px; padding-bottom: 30px;">
+            <div class="transit-03">
+                <img src="~/assets/images/graphic-01.png" style="width:100px;"/>
+            </div>
+            <div class="transit-04">
+                <img src="~/assets/images/desk-01.png" style="width:150px;" />
+            </div>
+            <div class="transit-05">
+                <img src="~/assets/images/monitor-01.png" style="width:130px;" />
+            </div>
+            <div class="transit-06">
+                <img src="~/assets/images/pencils-01.png" style="width:50px;" />
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="main-localseo-area">
+                            <div class="main-localseo border text-center bg-white m-top-50">
+                                <form class="form-inline">
+                                    <span style="font-size:17px;color:#13A0B2;font-weight:bold;">预约试用</span>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="请填写您的姓名">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="请填写您的电话">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-round">开始预约</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Footer Widget section -->
         <section id="contact" class="contact clear">
             <div class="container">
@@ -121,12 +172,6 @@
         <footer class="footerv1 bg-black">
             <div class="scrollup back">
                 <a href="#"><img class="hvr-hang" src="~/assets/images/go-top-img.png" alt="返回顶部" /></a>
-            </div>
-            <div class="wechatdiv">
-                <div class="wechat scrollup">
-                    <img class="hvr-hang" src="~/assets/images/wechat.png" alt="微信" />
-                </div>
-                <img class="wechatimg hvr-hang" src="~/assets/images/weixin.png" alt="微信号" />
             </div>
             <div class="container">
                 <div class="row">

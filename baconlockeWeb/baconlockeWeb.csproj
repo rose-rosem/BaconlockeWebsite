@@ -179,6 +179,7 @@
     <Content Include="assets\images\newsletterv1-img.png" />
     <Content Include="assets\images\pencils-01.png" />
     <Content Include="assets\images\phone-fax-img.png" />
+    <Content Include="assets\images\QQ.png" />
     <Content Include="assets\images\service1.png" />
     <Content Include="assets\images\service2.png" />
     <Content Include="assets\images\service3.png" />
@@ -206,7 +207,7 @@
     <Content Include="assets\images\w-b-post-img01.jpg" />
     <Content Include="assets\images\w-b-post-img02.jpg" />
     <Content Include="assets\images\web.png" />
-    <Content Include="assets\images\wechat.png" />
+    <Content Include="assets\images\wechat2.png" />
     <Content Include="assets\images\weixin.png" />
     <Content Include="assets\js\bootsnav.js" />
     <Content Include="assets\js\gmaps.min.js" />
