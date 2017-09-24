@@ -26,6 +26,9 @@ Author URI: http://xpeedstudio.com
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
+
 html,
 body {
     position: relative;
@@ -41,6 +44,7 @@ body {
     font-family: 'Heebo', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-family: "Microsoft Yahei" !important;
 }
 
 

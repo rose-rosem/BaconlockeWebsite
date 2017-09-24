@@ -15,6 +15,9 @@ namespace baconlockeWeb
                      "~/assets/css/style.css",
                      "~/assets/css/responsive.css"));
 
+            bundles.Add(new StyleBundle("~/demo/css").Include(
+                     "~/assets/css/demo.css"));
+
             bundles.Add(new ScriptBundle("~/layout/js").Include(
                       "~/assets/js/vendor/jquery-1.11.2.min.js",
                       "~/assets/js/vendor/bootstrap.js",

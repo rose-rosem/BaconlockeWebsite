@@ -107,7 +107,6 @@ jQuery( document ).ready( function ( $ ) {
 
     jQuery( '.border' ).parent( 'div' ).addClass( 'parent-border' );
 
-    jQuery( '#newsletter-form' ).formchimp( { 'buttonText': 'Thanks' } );
 
 
 

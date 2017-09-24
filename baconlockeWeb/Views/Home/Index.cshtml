@@ -1,7 +1,7 @@
 ﻿@{
     ViewBag.Title = "首页";
 }
-
+@Styles.Render("~/demo/css")
 <section id="homev1" class="homev1 home-one">
     <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line kenburns_zoomInOut" data-ride="carousel" data-interval="10000">
         <!-- Wrapper For Slides -->
@@ -84,10 +84,6 @@
             <!-- End of Slide -->
         </div>
         <!-- End of Wrapper For Slides -->
-
-
-
-
         <!-- carousel indicators -->
         <div class="carousel-indicators text-center">
             <div data-target="#bootstrap-touch-slider" data-slide-to="0" class="active indicatior-item text-center bg-black">
@@ -133,18 +129,16 @@
     <!-- End  bootstrap-touch-slider Slider -->
 </section>
 <!-- End off homev1 section -->
-
-
-
-
 <!-- Service Section -->
-<section id="service" class="service sections" style="padding-top:80px;">
+<section id="service" class="service sections" style="padding-top:60px;">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="head-title text-center">
-                    <h2 class="text-black">为什么叫做智能课堂？</h2>
-                    <p class="m-top-10 text-black">培洛利用人工智能和大数据的优势, 实现比传统课堂更高效、更吸引学生的教学。让学生能随时随地想学就学。</p>
+                    <h2 class="text-black">为什么叫智能课堂？</h2>
+                    <p class="m-top-10 text-black" style="line-height:24px;">
+                        培洛利用人工智能和大数据的优势, 实现比传统课堂更高效、更吸引学生的教学。包含学生学习的所有环节。
+                    </p>
                 </div>
             </div>
         </div>
@@ -158,7 +152,7 @@
                             </div>
                             <div class="studies-conten m-top-30">
                                 <h4><a href="">上课教学</a></h4>
-                                <p class="m-top-10">比传统课堂更省时，省力，随时随地想学就学。还可以学新课哦。</p>
+                                <p class="m-top-10">比传统课堂更省时，省力，随时随地想学就学。在家也能完整上新课。</p>
                             </div>
                         </div>
                     </div>
@@ -221,7 +215,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="studies-btns text-center m-top-50">
-                            <a href="" class="btn btn-primary btn-round">咨询详情</a>
+                            <a href="" class="btn btn-primary btn-round">查看更多</a>
                         </div>
                     </div>
                 </div>
@@ -234,38 +228,73 @@
     <!-- End off container -->
 </section>
 <!-- End off Service Section -->
-
-
-
 <!--The leading Section-->
-<section id="leading" class="leading bg-primary sections2">
+<section id="leading" class="leading bg-primary sections2" style="padding:60px 0;">
     <div class="container">
         <div class="row">
-            <div class="main-leading">
-                <div class="col-md-6">
-                    <div class="leading-content">
-                        <div class="head-title">
-                            <h2 class="text-white">
-                                Sit back, relax and learn from
-                                the experts.
-                            </h2>
-                            <p class="m-top-30 text-white">
-                                According to TopTenReviews in 2017, as well as many other 3rd party review
-                                sites and publications we always comes out on top.
-                            </p>
-                            <div class="separator2 hv2"><span></span><span></span><span></span></div>
-                        </div>
-                        <p class="m-top-40">
-                            We’re a leading Internet Digital Marketing Company who offers SEO,
-                            Paid Search, Social Media, ConsultingLead Generation, Brand Reputation
-                            Management, and Web Design Services.
-                        </p>
-                        <a href="" class="btn btn-default btn-round m-top-20">Our Team</a>
+            <div class="col-md-12">
+                <div class="head-title text-center">
+                    <h2 class="text-white">智能课堂有什么特点？</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="main-timeline">
+                <div class="col-md-2 col-sm-6 timeline">
+                    <div class="timeline-icon"><img src="~/assets/images/demo6.jpg" style="border-radius:50%;" /></div>
+                    <div class="timeline-content">
+                        <div class="post">靶向性题库</div>
+                        <p class="description">100%与学校考试接轨，以学校课本为核心，以学校课堂练习、学习报、历年试卷为基础题库。以学校推荐教辅为补充题库。一切以考试提分为目标</p>
                     </div>
                 </div>
-                <div class="col-md-5">
-                    <div class="leading-img sm-m-top-50">
-                        <img src="~/assets/images/leading-img.png" alt="" />
+
+                <div class="col-md-2 col-sm-6 timeline">
+                    <div class="timeline-icon"><img src="~/assets/images/demo2.jpg" style="border-radius:50%;" /></div>
+                    <div class="timeline-content">
+                        <div class="post">高精度专项</div>
+                        <p class="description">
+                            培洛的题库分类至原子级别，并根据考试频率制作成专项训练，配上精心制作的视频。当练习、测评中发现学生某个知识点不熟悉时，可以即时的推送相关。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 timeline">
+                    <div class="timeline-icon"><img src="~/assets/images/demo3.jpg" style="border-radius:50%;" /></div>
+                    <div class="timeline-content">
+                        <div class="post">多维度讲解</div>
+                        <p class="description">
+                            智能课堂的解释包括了图文并茂的文本、提纲性的解题录音、针对性的解题视频。确保学生能更快捷、更透彻的掌握知识点。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 timeline">
+                    <div class="timeline-icon"><img src="~/assets/images/demo5.jpg" style="border-radius:50%;" /></div>
+                    <div class="timeline-content">
+                        <div class="post">一对一辅导</div>
+                        <p class="description">
+                            学生的每次学习、每道练习，后台教师都会进行复核，遇到情况，会针对性的讲解反馈，一对一的进行辅导。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 timeline">
+                    <div class="timeline-icon"><img src="~/assets/images/demo1.jpg" style="border-radius:50%;" /></div>
+                    <div class="timeline-content">
+                        <div class="post">有规划巩固</div>
+                        <p class="description">
+                            培洛根据记忆曲线将学生的错题主动的安排到每日任务中，并优先练习。确保学生能即时的巩固自己的不足，清除知识点死角。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 timeline">
+                    <div class="timeline-icon"><img src="~/assets/images/demo4.jpg" style="border-radius:50%;" /></div>
+                    <div class="timeline-content">
+                        <div class="post">流畅学新课</div>
+                        <p class="description">
+                            学生不仅复习，而且可以对新课进行完整的学习，我们不仅覆盖学校老师讲的知识点，而且覆盖老师不讲但考试会考的知识点，针对考试中的易难点更多的练习。
+                        </p>
                     </div>
                 </div>
             </div>
@@ -277,72 +306,137 @@
 <!-- End off leading section-->
 
 
-
-<!--Allies Section-->
-<section id="allies" class="allies sections">
+<section id="service" class="service sections">
     <div class="container">
         <div class="row">
-            <div class="main-allies">
-                <div class="col-md-5">
-                    <div class="allies-img">
-                        <img src="~/assets/images/allies-img-left.png" alt="" />
+            <div class="col-md-12">
+                <div class="head-title text-center">
+                    <h2 class="text-black">培洛的理念</h2>
+                    <p class="m-top-10 text-black">复杂的数据结构和算法，一切都是为了超简洁的用户体验。</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="main-service-area text-center m-top-80">
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-item sm-m-top-65">
+                        <div class="service-icon">
+                            <img src="~/assets/images/service1.png" alt="" />
+                        </div>
+                        <h5 class="text-info m-top-50">高水平教学</h5>
+                        <p class="text-black m-top-20">不用辛苦寻找好老师、好资料。立体图形、真人语音、微视频包括一对一讲解</p>
                     </div>
                 </div>
-                <div class="col-md-7">
-                    <div class="allies-content sm-m-top-50">
-                        <div class="head-title">
-                            <h2 class="text-black">
-                                Our clients are definitely our
-                                greatest allies.
-                            </h2>
-                            <h5 class="text-black m-top-30">
-                                “We’ve been extremely pleased with the progress SeoPress
-                                has made in helping us gain an online presence.”
-                            </h5>
-                            <div class="separator2"><span></span><span></span><span></span></div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-item sm-m-top-65">
+                        <div class="service-icon">
+                            <img src="~/assets/images/service3.png" alt="" />
                         </div>
-                        <ul class="text-black m-top-40">
-                            <li><i class="fa fa-check"></i> Your business is unique and has unique goals</li>
-                            <li><i class="fa fa-check"></i> We carry a vast arsenal of digital marketing solutions</li>
-                            <li><i class="fa fa-check"></i> Is it quality website traffic you seek?</li>
-                        </ul>
-                        <a href="" class="btn btn-primary btn-round m-top-30">Portfolio</a>
+                        <h5 class="text-info m-top-50">个性化定制</h5>
+                        <p class="text-black m-top-20">不用担心内容不匹配，进度由孩子自身情况决定。个性化定制教学方案</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-item sm-m-top-65">
+                        <div class="service-icon">
+                            <img src="~/assets/images/service2.png" alt="" />
+                        </div>
+                        <h5 class="text-info m-top-50">教与练结合</h5>
+                        <p class="text-black m-top-20">不用担心没掌握，在学的过程中练，在练的过程中学</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-item m-top-65">
+                        <div class="service-icon">
+                            <img src="~/assets/images/service4.png" alt="" />
+                        </div>
+                        <h5 class="text-info m-top-50">随时随地学</h5>
+                        <p class="text-black m-top-20">不受时间地点限制，想学就学，不同老师，高效学习</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-item m-top-65">
+                        <div class="service-icon">
+                            <img src="~/assets/images/service6.png" alt="" />
+                        </div>
+                        <h5 class="text-info m-top-50">全过程监督</h5>
+                        <p class="text-black m-top-20">不用担心学生不自觉，第一时间发现问题，实时互动，一对一解答</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-item m-top-65">
+                        <div class="service-icon">
+                            <img src="~/assets/images/service5.png" alt="" />
+                        </div>
+                        <h5 class="text-info m-top-50">低成本学习</h5>
+                        <p class="text-black m-top-20">不断利用先进科技降低成本，让更多莘莘学子能低成本的学习。
                     </div>
                 </div>
             </div>
         </div>
-        <!-- End off row -->
     </div>
-    <!--End off container -->
 </section>
+
+
+
+<!--Allies Section-->
+@*<section id="allies" class="allies sections">
+        <div class="container">
+            <div class="row">
+                <div class="main-allies">
+                    <div class="col-md-5">
+                        <div class="allies-img">
+                            <img src="~/assets/images/allies-img-left.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="allies-content sm-m-top-50">
+                            <div class="head-title">
+                                <h2 class="text-black">
+                                    Our clients are definitely our
+                                    greatest allies.
+                                </h2>
+                                <h5 class="text-black m-top-30">
+                                    “We’ve been extremely pleased with the progress SeoPress
+                                    has made in helping us gain an online presence.”
+                                </h5>
+                                <div class="separator2"><span></span><span></span><span></span></div>
+                            </div>
+                            <ul class="text-black m-top-40">
+                                <li><i class="fa fa-check"></i> Your business is unique and has unique goals</li>
+                                <li><i class="fa fa-check"></i> We carry a vast arsenal of digital marketing solutions</li>
+                                <li><i class="fa fa-check"></i> Is it quality website traffic you seek?</li>
+                            </ul>
+                            <a href="" class="btn btn-primary btn-round m-top-30">Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End off row -->
+        </div>
+        <!--End off container -->
+    </section>*@
 <!-- End off Allies Section-->
-
-
-
-
 <!--Business section-->
-<section id="business" class="business bg-black p-top-100 p-bottom-100">
+<section id="business" class="business bg-black p-top-30 p-bottom-30">
     <div class="container">
         <div class="row">
             <div class="main-business">
                 <div class="col-md-6">
                     <div class="business-content m-top-40">
                         <h2 class="text-white">
-                            Whatever your goals look
-                            like, we’ll put our experience
-                            to work to reach
+                            视频预览
                         </h2>
                         <p class="m-top-30 text-primary">
-                            Searching tirelessly for an agency capable of attracting qualified leads and
-                            nurturing those leads into paying customers of your business?
+                            越来越多的学子开始走进培洛科技智能课堂！
                         </p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="business-video sm-m-top-50">
-                        <img src="~/assets/images/business-video-img.png" alt="" />
+                        <img src="~/assets/images/business-video-img1.png" alt="" />
                         <div class="business-video-icon">
-                            <a href="" class="video-link"><span class="icon icon-interface"></span></a>
+                            <a href="http://www.pl-kj.com/video/videonew.mp4" class="video-link"><span class="icon icon-interface"></span></a>
                         </div>
                     </div>
                 </div>
@@ -357,21 +451,20 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="head-title text-center">
-                    <h2 class="text-black">Check Our Pricing Plans</h2>
+                    <h2 class="text-black">学员有话说</h2>
                     <p class="text-black m-top-10">
-                        We offer our clients the best pricing
-                        plans suitable for all their needs. What’s yours?
+                        培洛一切以考试提分为目的，在学习的同时也会让学生收获满满。
                     </p>
                 </div>
             </div>
             <div class="main-pricing text-center">
                 <div class="col-md-3 col-sm-6">
-                    <div class="pricing-item border">
+                    <div class="pricing-item border" style="padding: 35px 0 25px 0; height:auto;">
                         <div class="pricing-icon">
                             <img src="~/assets/images/transport.png" alt="" />
                         </div>
                         <div class="pricing-title m-top-30">
-                            <h4 class="text-black">Plan Letter A</h4>
+                            <h4 class="text-black">某某某</h4>
                             <div class="separator"></div>
                         </div>
                         <ul class="pricing-body m-top-20">
@@ -381,20 +474,16 @@
                             <li><strong>50,000</strong> Crawled Pages</li>
                             <li><strong>10</strong> Social Accounts</li>
                         </ul>
-                        <div class="price text-info">
-                            <p><sup>$</sup> 23.99</p>
-                        </div>
-                        <a href="" class="btn btn-primary btn-round m-top-20">Purchase</a>
                     </div>
                 </div>
                 <!-- End off col-md-3-->
                 <div class="col-md-3 col-sm-6">
-                    <div class="pricing-item border xs-m-top-80">
+                    <div class="pricing-item border xs-m-top-80" style="padding: 35px 0 25px 0; height:auto;">
                         <div class="pricing-icon">
                             <img src="~/assets/images/megaphone.png" alt="" />
                         </div>
                         <div class="pricing-title m-top-30">
-                            <h4 class="text-black">Plan Letter B</h4>
+                            <h4 class="text-black">某某某</h4>
                             <div class="separator"></div>
                         </div>
                         <ul class="pricing-body m-top-20">
@@ -404,20 +493,16 @@
                             <li><strong>75,000</strong> Crawled Pages</li>
                             <li><strong>15</strong> Social Accounts</li>
                         </ul>
-                        <div class="price text-info">
-                            <p><sup>$</sup> 35.99</p>
-                        </div>
-                        <a href="" class="btn btn-primary btn-round m-top-20">Purchase</a>
                     </div>
                 </div>
                 <!-- End off col-md-3-->
                 <div class="col-md-3 col-sm-6">
-                    <div class="pricing-item border sm-m-top-80">
+                    <div class="pricing-item border sm-m-top-80" style="padding: 35px 0 25px 0; height:auto;">
                         <div class="pricing-icon">
                             <img src="~/assets/images/graphic.png" alt="" />
                         </div>
                         <div class="pricing-title m-top-30">
-                            <h4 class="text-black">Plan Letter C</h4>
+                            <h4 class="text-black">某某某</h4>
                             <div class="separator"></div>
                         </div>
                         <ul class="pricing-body m-top-20">
@@ -427,20 +512,16 @@
                             <li><strong>100,000</strong> Crawled Pages</li>
                             <li><strong>20</strong> Social Accounts</li>
                         </ul>
-                        <div class="price text-info">
-                            <p><sup>$</sup> 43.99</p>
-                        </div>
-                        <a href="" class="btn btn-primary btn-round m-top-20">Purchase</a>
                     </div>
                 </div>
                 <!-- End off col-md-3-->
                 <div class="col-md-3 col-sm-6">
-                    <div class="pricing-item border sm-m-top-80">
+                    <div class="pricing-item border sm-m-top-80" style="padding: 35px 0 25px 0; height:auto;">
                         <div class="pricing-icon">
                             <img src="~/assets/images/tool.png" alt="" />
                         </div>
                         <div class="pricing-title m-top-30">
-                            <h4 class="text-black">Plan Letter D</h4>
+                            <h4 class="text-black">某某某</h4>
                             <div class="separator"></div>
                         </div>
                         <ul class="pricing-body m-top-20">
@@ -450,85 +531,29 @@
                             <li><strong>150,000</strong> Crawled Pages</li>
                             <li><strong>25</strong> Social Accounts</li>
                         </ul>
-                        <div class="price text-info">
-                            <p><sup>$</sup> 59.99</p>
-                        </div>
-                        <a href="" class="btn btn-primary btn-round m-top-20">Purchase</a>
                     </div>
                 </div>
                 <!-- End off col-md-3-->
             </div>
+            <div class="col-md-12 m-top-20">
+                <div class="head-title text-center">
+                    <a href="http://wpa.qq.com/msgrd?v=3&uin=825021872&site=qq&menu=yes" class="btn btn-primary btn-round m-top-20">更多分享</a>
+                </div>
+            </div>
+
         </div>
         <!-- End off row -->
     </div>
     <!-- End off container -->
 </section>
 <!-- End off pricing section -->
-
-
-
-
 <!--Happy Customer section-->
 <section id="customer" class="customer sections4 bg-grey">
     <div class="container">
         <div class="row">
             <div class="main-customer">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="customer-item">
-                        <div class="row">
-                            <div class="col-xs-5">
-                                <div class="customer-icon">
-                                    <img src="~/assets/images/shapes.png" alt="" />
-                                </div>
-                            </div>
-                            <div class="col-xs-7">
-                                <div class="customer-content m-top-15">
-                                    <h2 class="statistic-counter">7654</h2>
-                                    <p>Happy Customers</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End off col-md-3 -->
-                <div class="col-md-3 col-sm-6">
-                    <div class="customer-item xs-m-top-50">
-                        <div class="row">
-                            <div class="col-xs-5">
-                                <div class="customer-icon">
-                                    <img src="~/assets/images/draw.png" alt="" />
-                                </div>
-                            </div>
-                            <div class="col-xs-7">
-                                <div class="customer-content m-top-15">
-                                    <h2 class="statistic-counter">753</h2>
-                                    <p>Successful Projects</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End off col-md-3 -->
-                <div class="col-md-3 col-sm-6">
-                    <div class="customer-item sm-m-top-50">
-                        <div class="row">
-                            <div class="col-xs-5">
-                                <div class="customer-icon">
-                                    <img src="~/assets/images/web.png" alt="" />
-                                </div>
-                            </div>
-                            <div class="col-xs-7">
-                                <div class="customer-content m-top-15">
-                                    <h2><span class="statistic-counter">25</span> <span>%</span></h2>
-                                    <p>Average Conversion</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End off col-md-3 -->
-                <div class="col-md-3 col-sm-6">
-                    <div class="customer-item sm-m-top-50">
                         <div class="row">
                             <div class="col-xs-5">
                                 <div class="customer-icon">
@@ -537,13 +562,67 @@
                             </div>
                             <div class="col-xs-7">
                                 <div class="customer-content m-top-15">
-                                    <h2 class="statistic-counter">100</h2>
-                                    <p>Guaranteed Results</p>
+                                    <h2><span class="statistic-counter">600,000</span> <span>+</span></h2>
+                                    <p>题库总量</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- End off col-md-3 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="customer-item xs-m-top-50">
+                        <div class="row">
+                            <div class="col-xs-5">
+                                <div class="customer-icon">
+                                    <img src="~/assets/images/shapes.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-xs-7">
+                                <div class="customer-content m-top-15">
+                                    <h2><span class="statistic-counter">100,000</span> <span>+</span></h2>
+                                    <p>真人录音讲解</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End off col-md-3 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="customer-item sm-m-top-50">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <div class="customer-icon">
+                                    <img src="~/assets/images/draw.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-xs-8">
+                                <div class="customer-content m-top-15">
+                                    <h2><span class="statistic-counter">2000,000</span> <span>+</span></h2>
+                                    <p>做题记录总量</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End off col-md-3 -->
+                @*<div class="col-md-3 col-sm-6">
+                        <div class="customer-item sm-m-top-50">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <div class="customer-icon">
+                                        <img src="~/assets/images/cup.png" alt="" />
+                                    </div>
+                                </div>
+                                <div class="col-xs-7">
+                                    <div class="customer-content m-top-15">
+                                        <h2 class="statistic-counter">100</h2>
+                                        <p>Guaranteed Results</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>*@
                 <!-- End off col-md-3 -->
             </div>
         </div>
@@ -552,127 +631,6 @@
     <!-- End off container -->
 </section>
 <!-- End off customer section-->
-
-
-
-<!--Case Studies section-->
-<section id="studies" class="studies sections">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="head-title text-center">
-                    <h2 class="text-black">Latest Case Studies</h2>
-                    <p class="text-black m-top-10">
-                        How well do you rank against the competition? We grade your site based on 50+ criteria metrics.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-12">
-                <div class="main-studies m-top-50">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6">
-                            <div class="studies-item">
-                                <div class="studies-feature border">
-                                    <img class="img-rounded" src="~/assets/images/studies-img-01.jpg" alt="" />
-                                    <div class="studies-overlay img-rounded"><a href=""><span class="icon icon-arrows-2 hvr-hang"></span></a></div>
-                                    <div class="custom-hover"></div>
-                                </div>
-                                <div class="studies-conten m-top-30">
-                                    <h4><a href="">Acme Corporation</a></h4>
-                                    <p class="m-top-10">Objective: Build a larger twitter community</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="studies-item xs-m-top-35">
-                                <div class="studies-feature border">
-                                    <img class="img-rounded" src="~/assets/images/studies-img-02.jpg" alt="" />
-                                    <div class="studies-overlay img-rounded"><a href=""><span class="icon icon-arrows-2 hvr-hang"></span></a></div>
-                                </div>
-                                <div class="studies-conten m-top-30">
-                                    <h4><a href="">Soylent Corp </a></h4>
-                                    <p class="m-top-10">Objective: Make tone & branding consistency</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="studies-item sm-m-top-35">
-                                <div class="studies-feature border">
-                                    <img class="img-rounded" src="~/assets/images/studies-img-03.jpg" alt="" />
-                                    <div class="studies-overlay img-rounded"><a href=""><span class="icon icon-arrows-2 hvr-hang"></span></a></div>
-                                </div>
-                                <div class="studies-conten m-top-30">
-                                    <h4><a href="">Umbrella Corporation</a></h4>
-                                    <p class="m-top-10">Objective: Eliminate the residue of black-hat methods</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="studies-item m-top-35">
-                                <div class="studies-feature border">
-                                    <img class="img-rounded" src="~/assets/images/studies-img-04.jpg" alt="" />
-                                    <div class="studies-overlay img-rounded"><a href=""><span class="icon icon-arrows-2 hvr-hang"></span></a></div>
-                                </div>
-                                <div class="studies-conten m-top-30">
-                                    <h4><a href="">Initech</a></h4>
-                                    <p class="m-top-10">Objective: Improve site load speed & functionality</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="studies-item m-top-35">
-                                <div class="studies-feature border">
-                                    <img class="img-rounded" src="~/assets/images/studies-img-05.jpg" alt="" />
-                                    <div class="studies-overlay img-rounded">
-                                        <a href="">
-                                            <span class="icon icon-arrows-2 hvr-hang"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="studies-conten m-top-30">
-                                    <h4><a href="">Vehement Capital Partners </a></h4>
-                                    <p class="m-top-10">Objective: Increase nationwide sales</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="studies-item m-top-35">
-                                <div class="studies-feature border">
-                                    <img class="img-rounded" src="~/assets/images/studies-img-06.jpg" alt="" />
-                                    <div class="studies-overlay img-rounded">
-                                        <a href=""><span class="icon icon-arrows-2 hvr-hang"></span></a>
-                                    </div>
-                                </div>
-                                <div class="studies-conten m-top-30">
-                                    <h4><a href="">Massive Dynamic</a></h4>
-                                    <p class="m-top-10">Objective: Increase qualified traffic</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End off row -->
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="studies-btns text-center m-top-50">
-                                <a href="" class="btn btn-primary btn-round">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End off row -->
-                </div>
-                <!-- End off main studies -->
-            </div>
-            <!-- End off col-md-12 -->
-        </div>
-        <!-- End off row -->
-    </div>
-    <!-- End off container -->
-</section>
-<!-- End off studies section-->
-
-
-
 <!--Clients section-->
 <section id="clients" class="clients">
     <div class="transit-01">
@@ -686,14 +644,13 @@
             <div class="col-md-5">
                 <div class="client-love sections3">
                     <h2 class="text-white">
-                        See Why Our Clients
-                        Love <span class="text-info">SeoPress</span>
+                        提分效果好
+                        家长<span class="text-info">更信赖</span>
                     </h2>
                     <p class="text-muted m-top-30">
-                        Partner with us today to see how search experience optimization
-                        can revolutionize the way your website is found online
+                        目前在线教育种类繁多，定位差异很大。家长很难找出适合自己孩子的方案。培洛是以“教”为核心，以“练”为主要内容的一站式的教育解决方案。全方位解决家长的顾虑。
                     </p>
-                    <a href="" class="btn btn-primary btn-round m-top-30">Read More</a>
+                    <a href="" class="btn btn-primary btn-round m-top-30">点击取经</a>
                 </div>
             </div>
             <div class="col-md-6 col-md-offset-1">
@@ -709,45 +666,42 @@
                         <div class="carousel-inner" role="listbox">
                             <div class="item active">
                                 <div class="client-img">
-                                    <img class="img-circle" src="~/assets/images/client-img-01.jpg" alt="" />
+                                    <img src="~/assets/images/client-img-02.png" style="border:none;" />
                                 </div>
                                 <div class="client-test-content">
                                     <div class="reviews_item_icon pull-left text-left">“</div>
-                                    <p class="m-top-30 text-muted">
-                                        We’re seeing considerable improvements in our page authority,
-                                        thanks to Pitstop Media’s link building efforts. I highly recommend to any organization who is serious about doing SEO right".
+                                    <p class="m-top-30 text-muted" style="font-size:16px;padding:0 30px;">
+                                        &nbsp; &nbsp; &nbsp; &nbsp;数学一直是孩子很头疼的科目，去过很补习班都不理想。试学了培洛的课程之后， 发现他们把知识点分的很细，孩子很好理解的。学习劲头明显提高。
                                     </p>
                                     <div class="reviews_item_icon1 pull-right text-right">“</div>
                                 </div>
-                                <h6 class="text-white">- Jessie Cameron</h6>
+                                <h6 class="text-white">- 江阴 高女士</h6>
                             </div>
                             <div class="item">
                                 <div class="client-img">
-                                    <img class="img-circle" src="~/assets/images/client-img-01.jpg" alt="" />
+                                    <img src="~/assets/images/client-img-03.png" style="border:none;" />
                                 </div>
                                 <div class="client-test-content">
                                     <div class="reviews_item_icon pull-left text-left">“</div>
-                                    <p class="m-top-30 text-muted">
-                                        We’re seeing considerable improvements in our page authority,
-                                        thanks to Pitstop Media’s link building efforts. I highly recommend to any organization who is serious about doing SEO right".
+                                    <p class="m-top-30 text-muted" style="font-size:16px;padding:0 30px;">
+                                        &nbsp; &nbsp; &nbsp; &nbsp;我们家两个女儿从老家转学过来之后，英语都是在培洛智能课堂学习的，突袭了一个多月，就把一整年落下的课程全都补回来了，开学无压力。
                                     </p>
                                     <div class="reviews_item_icon1 pull-right text-right">“</div>
                                 </div>
-                                <h6 class="text-white">- Jessie Cameron</h6>
+                                <h6 class="text-white">- 无锡 孙先生</h6>
                             </div>
                             <div class="item">
                                 <div class="client-img">
-                                    <img class="img-circle" src="~/assets/images/client-img-01.jpg" alt="" />
+                                    <img src="~/assets/images/client-img-04.png" style="border:none;" />
                                 </div>
                                 <div class="client-test-content">
                                     <div class="reviews_item_icon pull-left text-left">“</div>
-                                    <p class="m-top-30 text-muted">
-                                        We’re seeing considerable improvements in our page authority,
-                                        thanks to Pitstop Media’s link building efforts. I highly recommend to any organization who is serious about doing SEO right".
+                                    <p class="m-top-30 text-muted" style="font-size:16px;padding:0 30px;">
+                                        &nbsp; &nbsp; &nbsp; &nbsp;孩子一个人在家学习也很有劲，暑假学了一个月的下学期新课，开学后老师表扬她很多次，最近几次考试也都是95分以上，我会继续使用的。
                                     </p>
                                     <div class="reviews_item_icon1 pull-right text-right">“</div>
                                 </div>
-                                <h6 class="text-white">- Jessie Cameron</h6>
+                                <h6 class="text-white">- 苏州 张女士</h6>
                             </div>
                         </div>
 
@@ -760,204 +714,62 @@
     <!-- End off container -->
 </section>
 <!-- End off clients section -->
-
-
-
 <!--Newest Blog post section-->
 <section id="newest-blog" class="newest-blog sections">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="head-title text-center">
-                    <h2 class="text-black">Newest Blog Posts</h2>
-                    <p class="text-black m-top-10">Check our blog. You won’t get bored.</p>
+                    <h2 class="text-black">各地学员风采</h2>
                 </div>
             </div>
-            <div class="main-newest-blog m-top-50">
+            <div class="main-newest-blog m-top-30">
+
                 <div class="col-md-4">
-                    <div class="newest-blog-item border">
-                        <h4 class="text-black">Which Page Markup + Tags Still Matter for SEO?</h4>
-                        <div class="newest-tips-date m-top-20">
-                            <div class="newest-tips-btn pull-left">
-                                <a href="" class="btn-small btn-round">Seo Tips</a>
-                            </div>
-                            <div class="newest-tips-date-time pull-right">
-                                <span><i class="icon icon-interface-1"></i>32</span>
-                                <span><i class="icon icon-calendar"></i>2-10-2017</span>
-                            </div>
-                        </div>
-                        <div class="divider"></div>
-                        <p class="text-black">
-                            Should you focus on H1s and H2s,
-                            or should schema.org demand all your on-page ...
-                        </p>
-                        <div class="newest-author">
-                            <div class="newest-author-img pull-left">
-                                <img class="img-circle" src="~/assets/images/newest-author-01.jpg" alt="" />
-                            </div>
-                            <p class="text-black">by <span class="text-primary">Damion Carmenson</span></p>
-                        </div>
-                    </div>
-                </div><!-- End off col-md-4 -->
-                <div class="col-md-4">
-                    <div class="newest-blog-item border">
-                        <h4 class="text-black">5 Takeaways from Earning Links in 130 Countries</h4>
-                        <div class="newest-tips-date m-top-20">
-                            <div class="newest-tips-btn pull-left">
-                                <a href="" class="btn-small btn-round">Random</a>
-                            </div>
-                            <div class="newest-tips-date-time pull-right">
-                                <span><i class="icon icon-interface-1"></i>19</span>
-                                <span><i class="icon icon-calendar"></i>1-10-2017</span>
-                            </div>
-                        </div>
-                        <div class="divider"></div>
-                        <p class="text-black">
-                            What can you do if link building opportunities
-                            are scarce in your country? Kerry Jones ...
-                        </p>
-                        <div class="newest-author">
-                            <div class="newest-author-img pull-left">
-                                <img class="img-circle" src="~/assets/images/newest-author-02.jpg" alt="" />
-                            </div>
-                            <p class="text-black">by <span class="text-primary">Janice James</span></p>
-                        </div>
-                    </div>
-                </div><!-- End off col-md-4 -->
-                <div class="col-md-4">
-                    <div class="newest-blog-item border">
-                        <h4 class="text-black">Which Page Markup + Tags Still Matter for SEO?</h4>
-                        <div class="newest-tips-date m-top-20">
-                            <div class="newest-tips-btn pull-left">
-                                <a href="" class="btn-small btn-round">Suitcase</a>
-                            </div>
-                            <div class="newest-tips-date-time pull-right">
-                                <span><i class="icon icon-interface-1"></i>27</span>
-                                <span><i class="icon icon-calendar"></i>31-9-2017</span>
-                            </div>
-                        </div>
-                        <div class="divider"></div>
-                        <p class="text-black">
-                            Should you focus on H1s and H2s,
-                            or should schema.org demand all your on-page ...
-                        </p>
-                        <div class="newest-author">
-                            <div class="newest-author-img pull-left">
-                                <img class="img-circle" src="~/assets/images/newest-author-03.jpg" alt="" />
-                            </div>
-                            <p class="text-black">by <span class="text-primary">Dennis Kentsons</span></p>
-                        </div>
-                    </div>
-                </div><!-- End off col-md-4 -->
-                <div class="col-md-4">
-                    <div class="newest-blog-item border">
-                        <h4 class="text-black">Which Page Markup + Tags Still Matter for SEO?</h4>
-                        <div class="newest-tips-date m-top-20">
-                            <div class="newest-tips-btn pull-left">
-                                <a href="" class="btn-small btn-round">Suitcase</a>
-                            </div>
-                            <div class="newest-tips-date-time pull-right">
-                                <span><i class="icon icon-interface-1"></i>27</span>
-                                <span><i class="icon icon-calendar"></i>31-9-2017</span>
-                            </div>
-                        </div>
-                        <div class="divider"></div>
-                        <p class="text-black">
-                            Should you focus on H1s and H2s,
-                            or should schema.org demand all your on-page ...
-                        </p>
-                        <div class="newest-author">
-                            <div class="newest-author-img pull-left">
-                                <img class="img-circle" src="~/assets/images/newest-author-03.jpg" alt="" />
-                            </div>
-                            <p class="text-black">by <span class="text-primary">Dennis Kentsons</span></p>
-                        </div>
+                    <div class="newest-blog-item border" style="padding:0;overflow:hidden;">
+                        <img src="~/assets/images/01.jpg" style="height:306px;" title="学员风采" />
                     </div>
                 </div>
-                <!-- End off col-md-4 -->
+
+                <div class="col-md-4">
+                    <div class="newest-blog-item border" style="padding:0;overflow:hidden;">
+                        <img src="~/assets/images/02.jpg" style="height:306px;" title="学员风采" />
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="newest-blog-item border" style="padding:0;overflow:hidden;">
+                        <img src="~/assets/images/03.jpg" style="height:306px;" title="学员风采" />
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="newest-blog-item border" style="padding:0;overflow:hidden;">
+                        <img src="~/assets/images/04.jpg" style="height:306px;" title="学员风采" />
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="newest-blog-item border" style="padding:0;overflow:hidden;">
+                        <img src="~/assets/images/05.jpg" style="height:306px;" title="学员风采" />
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="newest-blog-item border" style="padding:0;overflow:hidden;">
+                        <img src="~/assets/images/06.jpg" style="height:306px;" title="学员风采" />
+                    </div>
+                </div>
+
             </div>
+            @*<div class="col-md-12 m-top-20">
+                    <div class="head-title text-center">
+                        <a href="http://wpa.qq.com/msgrd?v=3&uin=825021872&site=qq&menu=yes" class="btn btn-primary btn-round m-top-20">了解更多</a>
+                    </div>
+                </div>*@
         </div>
         <!-- End off row -->
     </div>
     <!-- End off container -->
 </section>
 <!-- End off Newest Blog post section-->
-
-
-
-<!--Brand section-->
-<section id="brand" class="bg-grey">
-    <div class="container">
-        <div class="row">
-            <div class="main-brandv1">
-                <div class="col-md-2">
-                    <div class="brand-itemv1">
-                        <a href="#."><img src="~/assets/images/brand-01.png" alt="" /></a>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="brand-itemv1">
-                        <a href="#."><img src="~/assets/images/brand-06.png" alt="" /></a>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="brand-itemv1">
-                        <a href="#."><img src="~/assets/images/brand-03.png" alt="" /></a>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="brand-itemv1">
-                        <a href="#."><img src="~/assets/images/brand-01.png" alt="" /></a>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="brand-itemv1">
-                        <a href="#."><img src="~/assets/images/brand-05.png" alt="" /></a>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="brand-itemv1">
-                        <a href="#."><img src="~/assets/images/brand-06.png" alt="" /></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End off row -->
-    </div>
-    <!-- End off container -->
-</section>
-<!-- End off brand section-->
-
-
-
-<!--News Letter section-->
-<section id="newsletterv1" class="newsletterv1 bg-primary sections4">
-    <div class="container">
-        <div class="row">
-            <div class="main-newsletterv1">
-                <div class="col-md-6">
-                    <div class="newsletterv1-content">
-                        <h2 class="text-white">Our Newsletter</h2>
-                        <p class="m-top-30">Subscribe to our newsletter and be the first who receives our latest news:</p>
-                        <form class="form-inline" id="newsletter-form" action="">
-                            <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Your Email Address">
-                            </div>
-                            <button type="submit">Send invitation</button>
-                        </form>
-                    </div>
-                </div>
-                <!-- End off col-md-6-->
-                <div class="col-md-5 col-md-offset-1 sm-m-top-50">
-                    <div class="newsletterv1-feature">
-                        <img src="~/assets/images/newsletterv1-img.png" alt="" />
-                    </div>
-                </div>
-                <!-- End off col-md-6-->
-            </div>
-        </div>
-        <!-- End off row -->
-    </div>
-    <!-- End off container -->
-</section>
-<!-- End off newsletter v1 section -->
