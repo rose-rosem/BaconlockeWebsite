@@ -34,7 +34,7 @@
                     <div class="row">
                         <div class="attr-nav">
                             <ul>
-                                <li class="dropdown cart-menu">
+                                <li>
                                     <a href="http://wpa.qq.com/msgrd?v=3&uin=825021872&site=qq&menu=yes" target="_blank" style="padding:24px 10px;">
                                         <img src="~/assets/images/QQ.png" alt="QQ在线客服" style="width:32px;" title="QQ在线咨询" />
                                     </a>
@@ -56,24 +56,26 @@
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                                 <i class="fa fa-bars"></i>
                             </button>
-                            <a class="navbar-brand" href="#brand"><img src="~/assets/images/logov1.png" class="logo" alt="LOGO" title="培洛科技"></a>
+                            <a class="navbar-brand" href="/"><img src="~/assets/images/logov1.png" class="logo" alt="LOGO" title="培洛科技"></a>
                         </div>
                         <div class="collapse navbar-collapse" id="navbar-menu">
                             <ul class="nav navbar-nav navbar-center" data-in="fadeIn" data-out="fadeOut">
                                 <li><a href="/">首页</a></li>
                                 <li><a href="/Home/Advantage">培洛优势</a></li>
-                                <li><a href="/Home/Course">培洛课程</a></li>
-                                <li><a href="/Home/StudentCase">学员案例</a></li>
-                                <li><a href="/Home/Download">下载中心</a></li>
-                                <li><a href="/Home/HelpFile">帮助文档</a></li>
-                                <li class="dropdown">
+                                @*<li><a href="/Home/Course">课程介绍</a></li>*@
+                                <li><a href="/Home/StudentCase">使用案例</a></li>
+                                <li><a href="/Home/Download">下载</a></li>
+                                @*<li><a href="/Home/HelpFile">帮助</a></li>*@
+                                <li><a href="/Home/About">关于培洛</a></li>
+                                <li><a href="/Home/Contact">联系我们</a></li>
+                                @*<li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于我们</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="/Home/About">公司简介</a></li>
                                         <li><a href="/Home/Contact">联系我们</a></li>
                                         <li><a href="/Home/Methodogy">培洛方法论</a></li>
                                     </ul>
-                                </li>
+                                </li>*@
                                 <li><a style="font-size:24px;color:#13A0B2;font-weight:bold;" title="咨询热线">400-878-4867</a></li>
 
                             </ul>
@@ -89,7 +91,7 @@
 
         @RenderBody()
 
-        <section id="localseo" class="localseo fix sections3" style="padding-top: 0px; padding-bottom: 30px;">
+        @*<section id="localseo" class="localseo fix sections3" style="padding-top: 0px; padding-bottom: 30px;">
             <div class="transit-03">
                 <img src="~/assets/images/graphic-01.png" style="width:100px;"/>
             </div>
@@ -122,12 +124,62 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>*@
+
+        @*<section id="localseo" class="localseo fix sections3">
+            <div class="transit-03">
+                <img src="~/assets/images/graphic-01.png" alt="" />
+            </div>
+            <div class="transit-04">
+                <img src="~/assets/images/desk-01.png" alt="" />
+            </div>
+            <div class="transit-05">
+                <img src="~/assets/images/monitor-01.png" alt="" />
+            </div>
+            <div class="transit-06">
+                <img src="~/assets/images/pencils-01.png" alt="" />
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="head-title text-center">
+                            <h2 class="text-black">Free website grader from SeoPress</h2>
+                            <p class="m-top-10 text-black">
+                                How well do you rank against the
+                                competition? We grade your site based on 50+ criteria metrics.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="main-localseo-area">
+                            <div class="main-localseo border text-center bg-white m-top-50">
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="keyword">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="email">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-round">Send invitation</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>*@
+
+        <div class="divider"></div>
         <!-- Footer Widget section -->
         <section id="contact" class="contact clear">
             <div class="container">
                 <div class="row">
-                    <div class="main-contact-boxv1">
+                    <div class="main-contact-boxv1" style="padding:30px 0;">
                         <div class="col-md-4">
                             <div class="contact-boxv1-item">
                                 <div class="boxv1-item-img">
@@ -153,7 +205,7 @@
                         <div class="col-md-4">
                             <div class="contact-boxv1-item sm-m-top-30">
                                 <div class="boxv1-item-img">
-                                    <img src="~/assets/images/clock-img.png" alt="" />
+                                    <img src="~/assets/images/envelop-img-02.png" alt="" />
                                 </div>
                                 <div class="boxv1-item-content text-black">
                                     <h4>我们的邮箱</h4>
