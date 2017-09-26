@@ -19,7 +19,10 @@ namespace baconlockeWeb
                      "~/assets/css/demo.css"));
 
             bundles.Add(new StyleBundle("~/time/css").Include(
-                     "~/assets/css/timeline.css"));
+                     "~/css/style.css"));
+
+            bundles.Add(new StyleBundle("~/lanren/css").Include(
+                     "~/assets/css/lanrenzhijia.css"));
 
             bundles.Add(new ScriptBundle("~/layout/js").Include(
                       "~/assets/js/vendor/jquery-1.11.2.min.js",
@@ -33,6 +36,14 @@ namespace baconlockeWeb
                       "~/assets/js/main.js"));
             bundles.Add(new ScriptBundle("~/layout/modernizr").Include(
                  "~/assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"));
+
+            bundles.Add(new ScriptBundle("~/time/js").Include(
+                 "~/js/main.js"));
+
+            bundles.Add(new ScriptBundle("~/timeline/js").Include(
+                 "~/js/modernizr.js"));
+            bundles.Add(new ScriptBundle("~/jq/js").Include(
+                 "~/js/jquery.1.11.1.js"));
         }
     }
 }
