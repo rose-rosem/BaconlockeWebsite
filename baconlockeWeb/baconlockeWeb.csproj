@@ -138,6 +138,12 @@
     <Content Include="assets\images\4.jpg" />
     <Content Include="assets\images\5.jpg" />
     <Content Include="assets\images\6.jpg" />
+    <Content Include="assets\images\a1.jpg" />
+    <Content Include="assets\images\a2.jpg" />
+    <Content Include="assets\images\a3.jpg" />
+    <Content Include="assets\images\a4.jpg" />
+    <Content Include="assets\images\a5.jpg" />
+    <Content Include="assets\images\a6.jpg" />
     <Content Include="assets\images\ab-service-img-01.png" />
     <Content Include="assets\images\ab-service-img-02.png" />
     <Content Include="assets\images\ab-service-img-03.png" />
@@ -179,6 +185,7 @@
     <Content Include="assets\images\f5.jpg" />
     <Content Include="assets\images\f6.jpg" />
     <Content Include="assets\images\Family.ico" />
+    <Content Include="assets\images\gift.png" />
     <Content Include="assets\images\go-top-img.png" />
     <Content Include="assets\images\graphic-01.png" />
     <Content Include="assets\images\graphic.png" />
@@ -222,12 +229,6 @@
     <Content Include="assets\images\slide-bg-03.jpg" />
     <Content Include="assets\images\slide-bg-04.jpg" />
     <Content Include="assets\images\Star.ico" />
-    <Content Include="assets\images\studies-img-01.jpg" />
-    <Content Include="assets\images\studies-img-02.jpg" />
-    <Content Include="assets\images\studies-img-03.jpg" />
-    <Content Include="assets\images\studies-img-04.jpg" />
-    <Content Include="assets\images\studies-img-05.jpg" />
-    <Content Include="assets\images\studies-img-06.jpg" />
     <Content Include="assets\images\support-img-01.png" />
     <Content Include="assets\images\team-img-01.jpg" />
     <Content Include="assets\images\team-img-02.jpg" />
@@ -246,6 +247,10 @@
     <Content Include="assets\images\weibo.png" />
     <Content Include="assets\images\weico.png" />
     <Content Include="assets\images\weixin.png" />
+    <Content Include="assets\images\y1.png" />
+    <Content Include="assets\images\y2.png" />
+    <Content Include="assets\images\y3.png" />
+    <Content Include="assets\images\y4.png" />
     <Content Include="assets\images\zfb.png" />
     <Content Include="assets\images\zhifu.png" />
     <Content Include="assets\images\sister.png" />

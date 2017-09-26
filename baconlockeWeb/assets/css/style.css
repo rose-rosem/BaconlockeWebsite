@@ -1308,8 +1308,8 @@ LocalSeo Section style
     }
 
     .pricing-item .pricing-icon {
-        width: 69px;
-        height: 69px;
+        width: 85px;
+        height: 85px;
         overflow: hidden;
     }
 
@@ -4377,3 +4377,10 @@ Contacts us page
 }
 
 .main-im{position:fixed;right:0;top:300px;z-index:100;}
+
+/*.service-item2 .service-icon:hover{
+    border:none;
+}
+.service-item2 .service-icon{
+    border:2px solid #4BAFD3;
+}*/
