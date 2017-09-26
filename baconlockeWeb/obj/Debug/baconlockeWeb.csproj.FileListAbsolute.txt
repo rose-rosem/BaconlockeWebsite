@@ -63,3 +63,4 @@ D:\plkjgit\BaconlockeWebsite\baconlockeWeb\bin\zh-Hans\System.Web.WebPages.Deplo
 D:\plkjgit\BaconlockeWebsite\baconlockeWeb\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
 D:\plkjgit\BaconlockeWebsite\baconlockeWeb\obj\Debug\baconlockeWeb.dll
 D:\plkjgit\BaconlockeWebsite\baconlockeWeb\obj\Debug\baconlockeWeb.pdb
+D:\plkjgit\BaconlockeWebsite\baconlockeWeb\obj\Debug\baconlockeWeb.csprojResolveAssemblyReference.cache
