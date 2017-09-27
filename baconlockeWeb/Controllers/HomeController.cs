@@ -80,5 +80,19 @@ namespace baconlockeWeb.Controllers
 
             return View(zq_CustomerTable);
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Contact([Bind(Include = "id,customerName,customerPhone,customerMessage")] zq_CustomerTable zq_CustomerTable)
+        {
+            if (ModelState.IsValid)
+            {
+                db.zq_CustomerTable.Add(zq_CustomerTable);
+                db.SaveChanges();
+                return RedirectToAction("Details", new { id = zq_CustomerTable.id });
+            }
+
+            return View(zq_CustomerTable);
+        }
     }
 }

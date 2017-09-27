@@ -28,6 +28,7 @@ namespace baconlockeWeb.Models
         public string customerPhone { get; set; }
 
         [Display(Name = "留言信息")]
+        [StringLength(50, ErrorMessage = "最多只能输入50个字哦,请点击下方在线咨询")]
         public string customerMessage { get; set; }
     }
 }
