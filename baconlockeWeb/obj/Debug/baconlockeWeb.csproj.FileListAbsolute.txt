@@ -64,3 +64,6 @@ D:\plkjgit\BaconlockeWebsite\baconlockeWeb\bin\zh-Hans\System.Web.WebPages.Razor
 D:\plkjgit\BaconlockeWebsite\baconlockeWeb\obj\Debug\baconlockeWeb.dll
 D:\plkjgit\BaconlockeWebsite\baconlockeWeb\obj\Debug\baconlockeWeb.pdb
 D:\plkjgit\BaconlockeWebsite\baconlockeWeb\obj\Debug\baconlockeWeb.csprojResolveAssemblyReference.cache
+D:\plkjgit\BaconlockeWebsite\baconlockeWeb\bin\EntityFramework.dll
+D:\plkjgit\BaconlockeWebsite\baconlockeWeb\bin\EntityFramework.xml
+D:\plkjgit\BaconlockeWebsite\baconlockeWeb\bin\zh-Hans\EntityFramework.resources.dll

@@ -1,7 +1,12 @@
-﻿@{
+﻿@model baconlockeWeb.Models.zq_CustomerTable
+
+@{
     ViewBag.Title = "首页";
 }
 @Styles.Render("~/demo/css")
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/jqueryval")
 <section id="homev1" class="homev1 home-one">
     <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line kenburns_zoomInOut" data-ride="carousel" data-interval="10000">
         <!-- Wrapper For Slides -->
@@ -427,16 +432,16 @@
                             <div class="separator"></div>
                         </div>
                         <p style="padding:20px;line-height:1.9em;">
-                            马上我就要上六年级 , 可是数学成绩一直提不高. 
+                            马上我就要上六年级 , 可是数学成绩一直提不高.
                             暑假里开始使用培洛智能课堂 , 我提前学习了6年级的新课 , 一些难点都有专门的视频讲解 , 老师也会留言给我讲解. 升6年级后 , 数学第一单元我竟然考了全班第一 , 妈妈都不敢相信.
                         </p>
                         @*<ul class="pricing-body m-top-20">
-                            <li><strong>2</strong> Analytics Campaigns</li>
-                            <li><strong>100</strong> Keywords</li>
-                            <li><strong>25</strong>  Branded Reports</li>
-                            <li><strong>50,000</strong> Crawled Pages</li>
-                            <li><strong>10</strong> Social Accounts</li>
-                        </ul>*@
+                                <li><strong>2</strong> Analytics Campaigns</li>
+                                <li><strong>100</strong> Keywords</li>
+                                <li><strong>25</strong>  Branded Reports</li>
+                                <li><strong>50,000</strong> Crawled Pages</li>
+                                <li><strong>10</strong> Social Accounts</li>
+                            </ul>*@
                     </div>
                 </div>
                 <!-- End off col-md-3-->
@@ -467,7 +472,7 @@
                         </div>
                         <p style="padding:20px;line-height:1.9em;">
                             我的英语发音不是很标准 , 妈妈就给我报了培洛音标课程.
-                            读不好的音标会过一段时间就出现直到我会读了为止. 如果读的不标准 , 
+                            读不好的音标会过一段时间就出现直到我会读了为止. 如果读的不标准 ,
                             后台老师也会留言纠正我的发音. 妈妈拿姐姐的初三英语单词表给我读 , 我都读对了 , 而且很标准.
                         </p>
                     </div>
@@ -747,7 +752,8 @@
             <div class="col-md-12">
                 <div class="main-localseo-area">
                     <div class="main-localseo border text-center bg-white m-top-50">
-                        <form class="form-inline" method="post">
+
+                        @*<form class="form-inline" method="post">
                             <span style="font-size:17px;color:#13A0B2;font-weight:bold;">预约试用</span>
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="请填写您的姓名">
@@ -755,9 +761,28 @@
                             <div class="form-group">
                                 <input type="email" class="form-control" placeholder="请填写您的电话">
                             </div>
-                            @*<input type="submit" value="开始预约" name="queren">*@  
                             <button type="submit" class="btn btn-primary btn-round">开始预约</button>
-                        </form>
+                        </form>*@
+
+                        
+                        @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { @class = "form-inline" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            <span style="font-size:17px;color:#13A0B2;font-weight:bold;">预约试用</span>
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="form-group">
+                                @Html.EditorFor(model => model.customerName, new { htmlAttributes = new { @class = "form-control", placeholder = "请填写您的姓名" } })
+                                @Html.ValidationMessageFor(model => model.customerName, "", new { @class = "text-danger" })
+                                @*<input type="text" class="form-control" placeholder="请填写您的姓名">*@
+                            </div>
+                            <div class="form-group">
+                                @*<input type="email" class="form-control" placeholder="请填写您的电话">*@
+                                @Html.EditorFor(model => model.customerPhone, new { htmlAttributes = new { @class = "form-control", placeholder = "请填写您的电话" } })
+                                @Html.ValidationMessageFor(model => model.customerPhone, "", new { @class = "text-danger" })
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-round">开始预约</button>
+
+                        }
                     </div>
                 </div>
             </div>

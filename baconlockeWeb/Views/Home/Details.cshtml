@@ -1,0 +1,50 @@
+﻿@model baconlockeWeb.Models.zq_CustomerTable
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>zq_CustomerTable</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.customerName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.customerName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.customerPhone)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.customerPhone)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.customerMessage)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.customerMessage)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

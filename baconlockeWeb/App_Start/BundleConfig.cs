@@ -44,6 +44,14 @@ namespace baconlockeWeb
                  "~/js/modernizr.js"));
             bundles.Add(new ScriptBundle("~/jq/js").Include(
                  "~/js/jquery.1.11.1.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
+                 "~/Scripts/jquery-{version}.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
+                 "~/Scripts/jquery.validate*"));
+
+
         }
     }
 }
