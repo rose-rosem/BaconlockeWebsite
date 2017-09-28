@@ -1,0 +1,169 @@
+﻿<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>@ViewBag.Title - 培洛科技</title>
+    <meta name="description" content="">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    @Styles.Render("~/layout/css")
+    @Scripts.Render("~/layout/modernizr")
+
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse">
+
+    <!-- Preloader -->
+    <div class="preloader loaderbox">
+        <div id="cupcake" class="loaderbox">
+            <span class="letter">L</span>
+            <div class="cupcakeCircle loaderbox"><div class="cupcakeInner loaderbox"><div class="cupcakeCore loaderbox"></div></div></div>
+            <span class="letter loaderbox">A</span><span class="letter loaderbox">D</span><span class="letter loaderbox">I</span><span class="letter loaderbox">N</span><span class="letter loaderbox">G</span>
+        </div>
+    </div>
+    <!--End off Preloader -->
+    <!--Home page style-->
+    <nav class="navbar home1_menu navbar-fixed navbar-default navbar-mobile bootsnav is-visible xsaa" data-nav-status="toggle">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="attr-nav">
+                            <ul>
+                                <li>
+                                    <a href="http://wpa.qq.com/msgrd?v=3&uin=825021872&site=qq&menu=yes" target="_blank" style="padding:24px 10px;">
+                                        <img src="~/assets/images/QQ.png" alt="QQ在线客服" style="width:32px;" title="QQ在线咨询" />
+                                    </a>
+                                </li>
+                                <li class="dropdown cart-menu">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" style="padding:24px 10px;">
+                                        <img src="~/assets/images/wechat2.png" alt="微信号" style="height:33px;" title="微信号" />
+                                    </a>
+                                    <ul class="dropdown-menu" style="left:-110px;">
+                                        <li>
+                                            <img src="~/assets/images/weixin.png" alt="微信号" width="174" style="margin-left:11px;"/>
+                                        </li>
+                                        <li style="text-align:center;">微信扫一扫 关注培洛科技</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <a class="navbar-brand" href="/"><img src="~/assets/images/logov1.png" class="logo" alt="LOGO" title="培洛科技"></a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbar-menu">
+                            <ul class="nav navbar-nav navbar-center" data-in="fadeIn" data-out="fadeOut">
+                                <li><a href="/">首页</a></li>
+                                <li><a href="/Home/Advantage">培洛优势</a></li>
+                                @*<li><a href="/Home/Course">课程介绍</a></li>*@
+                                <li><a href="/Home/StudentCase">使用案例</a></li>
+                                <li><a href="/Home/Download">下载</a></li>
+                                @*<li><a href="/Home/HelpFile">帮助</a></li>*@
+                                <li><a href="/Home/About">关于培洛</a></li>
+                                <li><a href="/Home/Contact">联系我们</a></li>
+                                @*<li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于我们</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/Home/About">公司简介</a></li>
+                                        <li><a href="/Home/Contact">联系我们</a></li>
+                                        <li><a href="/Home/Methodogy">培洛方法论</a></li>
+                                    </ul>
+                                </li>*@
+                                <li><a style="font-size:24px;color:#13A0B2;font-weight:bold;" title="咨询热线">400-878-4867</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="culmn">
+
+        @RenderBody()
+
+        <div class="divider"></div>
+        <!-- Footer Widget section -->
+        <section id="contact" class="contact clear">
+            <div class="container">
+                <div class="row">
+                    <div class="main-contact-boxv1" style="padding:30px 0;">
+                        <div class="col-md-4">
+                            <div class="contact-boxv1-item">
+                                <div class="boxv1-item-img">
+                                    <img src="~/assets/images/location-img.png" alt="" />
+                                </div>
+                                <div class="boxv1-item-content text-black">
+                                    <h4>我们的地址</h4>
+                                    <p class="m-top-10">无锡惠山区钱桥育才路27号</p>
+                                </div>
+                            </div>
+                        </div><!-- End off col-md-4 -->
+                        <div class="col-md-4">
+                            <div class="contact-boxv1-item sm-m-top-30">
+                                <div class="boxv1-item-img">
+                                    <img src="~/assets/images/phone-fax-img.png" alt="" />
+                                </div>
+                                <div class="boxv1-item-content text-black">
+                                    <h4>我们热线</h4>
+                                    <p class="m-top-10">400-878-4867 / 0510-83480622</p>
+                                </div>
+                            </div>
+                        </div><!-- End off col-md-4 -->
+                        <div class="col-md-4">
+                            <div class="contact-boxv1-item sm-m-top-30">
+                                <div class="boxv1-item-img">
+                                    <img src="~/assets/images/envelop-img-02.png" alt="" />
+                                </div>
+                                <div class="boxv1-item-content text-black">
+                                    <h4>我们的邮箱</h4>
+                                    <p class="">baconlocke@163.com</p>
+                                </div>
+                            </div>
+                        </div><!-- End off col-md-4 -->
+                    </div>
+                </div>
+            </div>
+            <!-- End off container -->
+
+        </section>
+        <!-- End off footer widget Section -->
+        <!--Footer section-->
+        <footer class="footerv1 bg-black">
+            <div class="scrollup back">
+                <a href="#"><img class="hvr-hang" src="~/assets/images/go-top-img.png" alt="返回顶部" /></a>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="main-footer wow fadeInUp">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="copyright-text text-center">
+                                        <p class="">Copyright &copy; @DateTime.Now.Year .Company name All rights reserved.</p>
+                                        <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=1e3n4OXn5O3i55WkpPu2urg" style="text-decoration:none;"><img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_12.png" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End off footer Section-->
+    </div>
+
+    <!-- JS includes -->
+    @Scripts.Render("~/layout/js")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

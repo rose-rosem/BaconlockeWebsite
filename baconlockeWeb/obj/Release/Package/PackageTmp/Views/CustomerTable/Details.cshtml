@@ -1,0 +1,89 @@
+﻿@model baconlockeWeb.Models.zq_CustomerTable
+@*<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>zq_CustomerTable</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.customerName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.customerName)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.customerPhone)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.customerPhone)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.customerMessage)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.customerMessage)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>*@
+
+<div class="sidebar-item proposal m-top-150">
+    <h3 class="text-center">Request A Proposal</h3>
+    <div class="separator text-center"><span></span><span></span><span></span></div>
+    <div class="proposal-from m-top-30">
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.customerName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.customerName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.customerPhone)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.customerPhone)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.customerMessage)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.customerMessage)
+            </dd>
+        </dl>
+        <a href="/" class="btn btn-default btn-round">确定</a>
+        @*<form>
+            <div class="form-group">
+                @Html.DisplayFor(model => model.customerName)
+            </div>
+            <div class="form-group">
+                @Html.DisplayFor(model => model.customerPhone)
+            </div>
+            <div class="sidebar-btns text-center">
+                <a href="/" class="btn btn-default btn-round">确定</a>
+            </div>
+        </form>*@
+    </div>
+</div>

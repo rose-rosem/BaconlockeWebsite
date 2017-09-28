@@ -1,0 +1,39 @@
+﻿@model baconlockeWeb.Models.zq_CustomerTable
+
+<div class="sidebar-item proposal m-top-80">
+
+    <div class="container m-top-20">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="head-title text-center">
+                    <h4 class="m-top-10 text-white">
+                        姓名：@Html.DisplayFor(model => model.customerName)
+                    </h4>
+                </div>
+            </div>
+            <div class="col-md-12 m-top-10">
+                <div class="head-title text-center">
+                    <h4 class="m-top-10 text-white">
+                        电话：@Html.DisplayFor(model => model.customerPhone)
+                    </h4>
+                </div>
+            </div>
+            <div class="col-md-12 m-top-10">
+                <div class="head-title text-center">
+                    <h5 class="m-top-10 text-white">
+                        需求：@Html.DisplayFor(model => model.customerMessage)
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="separator text-center m-top-30"><span></span><span></span><span></span></div>
+    <p class="text-center m-top-10">我们将第一时间联系您！</p>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="studies-btns text-center m-top-10">
+                <a href="http://wpa.qq.com/msgrd?v=3&uin=825021872&site=qq&menu=yes" target="_blank" class="btn btn-default btn-round">在线咨询</a>
+            </div>
+        </div>
+    </div>
+</div>
