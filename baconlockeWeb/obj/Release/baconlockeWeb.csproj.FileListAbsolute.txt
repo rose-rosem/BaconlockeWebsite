@@ -33,3 +33,4 @@ D:\plkjgit\BaconlockeWebsite\baconlockeWeb\bin\zh-Hans\System.Web.WebPages.Deplo
 D:\plkjgit\BaconlockeWebsite\baconlockeWeb\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
 D:\plkjgit\BaconlockeWebsite\baconlockeWeb\obj\Release\baconlockeWeb.dll
 D:\plkjgit\BaconlockeWebsite\baconlockeWeb\obj\Release\baconlockeWeb.pdb
+D:\plkjgit\BaconlockeWebsite\baconlockeWeb\obj\Release\baconlockeWeb.csprojResolveAssemblyReference.cache

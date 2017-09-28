@@ -14,7 +14,7 @@
       <publishTime>09/22/2017 22:57:09</publishTime>
     </File>
     <File Include="assets/css/bootstrap-touch-slider.css">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/28/2017 12:01:51</publishTime>
     </File>
     <File Include="assets/css/demo.css">
       <publishTime>09/24/2017 20:39:15</publishTime>
@@ -26,13 +26,13 @@
       <publishTime>09/24/2017 19:56:45</publishTime>
     </File>
     <File Include="assets/css/plugins.css">
-      <publishTime>09/23/2017 14:34:17</publishTime>
+      <publishTime>09/28/2017 10:22:38</publishTime>
     </File>
     <File Include="assets/css/responsive.css">
       <publishTime>09/24/2017 20:44:10</publishTime>
     </File>
     <File Include="assets/css/style.css">
-      <publishTime>09/26/2017 21:09:01</publishTime>
+      <publishTime>09/28/2017 10:53:38</publishTime>
     </File>
     <File Include="assets/images/01.jpg">
       <publishTime>09/24/2017 14:00:48</publishTime>
@@ -265,6 +265,18 @@
     <File Include="assets/images/slide-bg-04.jpg">
       <publishTime>09/22/2017 22:57:09</publishTime>
     </File>
+    <File Include="assets/images/slider1.jpg">
+      <publishTime>09/28/2017 11:47:35</publishTime>
+    </File>
+    <File Include="assets/images/slider2.jpg">
+      <publishTime>09/28/2017 11:47:35</publishTime>
+    </File>
+    <File Include="assets/images/slider3.jpg">
+      <publishTime>09/28/2017 11:47:35</publishTime>
+    </File>
+    <File Include="assets/images/slider4.jpg">
+      <publishTime>09/28/2017 11:47:35</publishTime>
+    </File>
     <File Include="assets/images/Star.ico">
       <publishTime>09/25/2017 16:47:59</publishTime>
     </File>
@@ -359,7 +371,7 @@
       <publishTime>09/27/2017 21:07:18</publishTime>
     </File>
     <File Include="bin/baconlockeWeb.dll">
-      <publishTime>09/27/2017 21:07:41</publishTime>
+      <publishTime>09/28/2017 11:56:57</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>09/27/2017 17:37:05</publishTime>
@@ -596,10 +608,10 @@
       <publishTime>09/27/2017 17:38:22</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
-      <publishTime>09/26/2017 18:57:06</publishTime>
+      <publishTime>09/28/2017 11:55:56</publishTime>
     </File>
     <File Include="Views/Home/Advantage.cshtml">
-      <publishTime>09/26/2017 21:24:55</publishTime>
+      <publishTime>09/28/2017 10:45:27</publishTime>
     </File>
     <File Include="Views/Home/Contact.cshtml">
       <publishTime>09/27/2017 19:52:59</publishTime>
@@ -611,19 +623,19 @@
       <publishTime>09/26/2017 16:51:01</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>09/27/2017 18:58:46</publishTime>
+      <publishTime>09/28/2017 11:57:57</publishTime>
     </File>
     <File Include="Views/Home/Methodogy.cshtml">
       <publishTime>09/22/2017 23:25:43</publishTime>
     </File>
     <File Include="Views/Home/StudentCase.cshtml">
-      <publishTime>09/26/2017 15:14:32</publishTime>
+      <publishTime>09/28/2017 11:55:21</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>09/22/2017 22:53:34</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>09/27/2017 18:49:23</publishTime>
+      <publishTime>09/28/2017 12:06:01</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>09/22/2017 22:53:34</publishTime>

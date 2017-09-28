@@ -227,6 +227,10 @@
     <Content Include="assets\images\slide-bg-02.jpg" />
     <Content Include="assets\images\slide-bg-03.jpg" />
     <Content Include="assets\images\slide-bg-04.jpg" />
+    <Content Include="assets\images\slider1.jpg" />
+    <Content Include="assets\images\slider2.jpg" />
+    <Content Include="assets\images\slider3.jpg" />
+    <Content Include="assets\images\slider4.jpg" />
     <Content Include="assets\images\Star.ico" />
     <Content Include="assets\images\support-img-01.png" />
     <Content Include="assets\images\top.png" />

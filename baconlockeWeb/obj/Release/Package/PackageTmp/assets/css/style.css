@@ -4376,7 +4376,12 @@ Contacts us page
     display: block;
 }
 
-.main-im{position:fixed;right:0;top:300px;z-index:100;}
+.main-im {
+    position: fixed;
+    right: 0;
+    top: 300px;
+    z-index: 100;
+}
 
 /*.service-item2 .service-icon:hover{
     border:none;
@@ -4384,3 +4389,29 @@ Contacts us page
 .service-item2 .service-icon{
     border:2px solid #4BAFD3;
 }*/
+.suojin {
+    text-indent: 2em;
+}
+
+.suojin1 {
+    padding: 0 20px;
+    line-height: 1.8em;
+    text-indent: 2em;
+    text-align: left;
+    margin: 0 !important;
+}
+
+.feedback {
+    font-size: 16px;
+    padding: 0 30px;
+    text-align: left;
+}
+.advantage{
+    padding-left:80px;
+}
+.advantagevs{
+    padding-top:50px;
+}
+.advantage2{
+    padding-left:40px;
+}
