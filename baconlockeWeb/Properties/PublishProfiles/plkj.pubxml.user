@@ -14,13 +14,13 @@
       <publishTime>09/22/2017 22:57:09</publishTime>
     </File>
     <File Include="assets/css/bootstrap-touch-slider.css">
-      <publishTime>09/28/2017 12:01:51</publishTime>
+      <publishTime>09/29/2017 15:11:29</publishTime>
     </File>
     <File Include="assets/css/demo.css">
-      <publishTime>09/24/2017 20:39:15</publishTime>
+      <publishTime>09/29/2017 15:11:32</publishTime>
     </File>
     <File Include="assets/css/fonts.css">
-      <publishTime>09/22/2017 22:59:00</publishTime>
+      <publishTime>09/29/2017 15:11:35</publishTime>
     </File>
     <File Include="assets/css/normalize.css">
       <publishTime>09/24/2017 19:56:45</publishTime>
@@ -29,172 +29,181 @@
       <publishTime>09/28/2017 10:22:38</publishTime>
     </File>
     <File Include="assets/css/responsive.css">
-      <publishTime>09/24/2017 20:44:10</publishTime>
+      <publishTime>09/29/2017 15:11:39</publishTime>
     </File>
     <File Include="assets/css/style.css">
-      <publishTime>09/28/2017 10:53:38</publishTime>
+      <publishTime>09/29/2017 15:23:20</publishTime>
     </File>
     <File Include="assets/images/01.jpg">
-      <publishTime>09/24/2017 14:00:48</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/02.jpg">
-      <publishTime>09/24/2017 14:00:48</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/03.jpg">
-      <publishTime>09/24/2017 14:00:48</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/04.jpg">
-      <publishTime>09/24/2017 14:00:48</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/05.jpg">
-      <publishTime>09/24/2017 14:00:48</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/06.jpg">
-      <publishTime>09/24/2017 14:00:48</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/1.jpg">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/2.jpg">
       <publishTime>09/22/2017 22:57:09</publishTime>
     </File>
     <File Include="assets/images/3.jpg">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/4.jpg">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/5.jpg">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/6.jpg">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/a3.jpg">
-      <publishTime>09/26/2017 20:57:50</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/ab-service-img-01.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/ab-service-img-02.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/ab-service-img-03.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/banner-bg-img-01.png">
       <publishTime>09/23/2017 09:04:53</publishTime>
+    </File>
+    <File Include="assets/images/banner-bg-img-02.png">
+      <publishTime>09/29/2017 14:27:53</publishTime>
+    </File>
+    <File Include="assets/images/banner-bg-img-03.png">
+      <publishTime>09/29/2017 14:31:08</publishTime>
     </File>
     <File Include="assets/images/blog-feature-03.jpg">
       <publishTime>09/22/2017 22:57:09</publishTime>
     </File>
     <File Include="assets/images/business-video-img1.png">
-      <publishTime>09/24/2017 16:55:50</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/calenter-02.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/client-img-02.png">
-      <publishTime>09/24/2017 16:07:00</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/client-img-03.png">
-      <publishTime>09/24/2017 16:07:00</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/client-img-04.png">
-      <publishTime>09/24/2017 16:07:00</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/computer.png">
       <publishTime>09/22/2017 22:57:09</publishTime>
     </File>
     <File Include="assets/images/cup.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/cyf.png">
-      <publishTime>09/25/2017 22:10:55</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/demo1.jpg">
-      <publishTime>09/24/2017 20:18:04</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/demo2.jpg">
-      <publishTime>09/24/2017 20:18:04</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/demo3.jpg">
-      <publishTime>09/24/2017 20:18:04</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/demo4.jpg">
-      <publishTime>09/24/2017 20:18:04</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/demo5.jpg">
-      <publishTime>09/24/2017 20:18:04</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/demo6.jpg">
-      <publishTime>09/24/2017 20:18:04</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/desk-01.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/divice-bg.jpg">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/draw.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/envelop-img-02.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/f1.jpg">
-      <publishTime>09/25/2017 20:04:21</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/f2.jpg">
-      <publishTime>09/25/2017 20:04:21</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/f3.jpg">
-      <publishTime>09/25/2017 20:04:29</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/f4.jpg">
-      <publishTime>09/25/2017 20:04:29</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/f5.jpg">
-      <publishTime>09/25/2017 20:04:29</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/f6.jpg">
-      <publishTime>09/25/2017 20:06:50</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/Family.ico">
       <publishTime>09/25/2017 16:47:59</publishTime>
     </File>
+    <File Include="assets/images/Family.png">
+      <publishTime>09/29/2017 13:37:46</publishTime>
+    </File>
     <File Include="assets/images/gift.png">
-      <publishTime>09/26/2017 21:16:43</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/go-top-img.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/graphic-01.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/graphic.png">
       <publishTime>09/22/2017 22:57:09</publishTime>
     </File>
     <File Include="assets/images/hv2-service-01.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/hv2-service-02.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/hv2-service-03.png">
       <publishTime>09/22/2017 22:57:09</publishTime>
     </File>
     <File Include="assets/images/hv2-service-04.png">
-      <publishTime>09/26/2017 21:22:11</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/hv2-service-06.png">
       <publishTime>09/22/2017 22:57:09</publishTime>
     </File>
     <File Include="assets/images/location-img.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/logov1.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/logov2.png">
       <publishTime>09/22/2017 22:57:09</publishTime>
@@ -203,160 +212,166 @@
       <publishTime>09/22/2017 22:57:09</publishTime>
     </File>
     <File Include="assets/images/monitor-01.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/open_im.png">
-      <publishTime>09/26/2017 14:27:03</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/pencils-01.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/phone-fax-img.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/qianc.png">
-      <publishTime>09/25/2017 22:12:11</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/QQ.png">
-      <publishTime>09/24/2017 09:45:39</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/qqewm.jpg">
       <publishTime>09/25/2017 14:41:48</publishTime>
     </File>
     <File Include="assets/images/qqico.png">
-      <publishTime>09/25/2017 13:56:29</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/school.ico">
       <publishTime>09/25/2017 16:47:59</publishTime>
     </File>
+    <File Include="assets/images/school.png">
+      <publishTime>09/29/2017 13:37:46</publishTime>
+    </File>
     <File Include="assets/images/service1.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/service2.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/service3.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/service4.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/service5.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/service6.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/shapes.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/sister.png">
-      <publishTime>09/25/2017 22:07:33</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/slide-bg-01.jpg">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/slide-bg-02.jpg">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/slide-bg-03.jpg">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/slide-bg-04.jpg">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/slider1.jpg">
-      <publishTime>09/28/2017 11:47:35</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/slider2.jpg">
-      <publishTime>09/28/2017 11:47:35</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/slider3.jpg">
-      <publishTime>09/28/2017 11:47:35</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/slider4.jpg">
-      <publishTime>09/28/2017 11:47:35</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/Star.ico">
       <publishTime>09/25/2017 16:47:59</publishTime>
+    </File>
+    <File Include="assets/images/Star.png">
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/support-img-01.png">
       <publishTime>09/22/2017 22:57:09</publishTime>
     </File>
     <File Include="assets/images/top.png">
-      <publishTime>09/26/2017 18:46:19</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/top2.png">
-      <publishTime>09/26/2017 18:49:23</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/transport.png">
       <publishTime>09/22/2017 22:57:09</publishTime>
     </File>
     <File Include="assets/images/vs.png">
-      <publishTime>09/25/2017 21:17:13</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/vsbg.jpg">
-      <publishTime>09/25/2017 21:45:45</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/wbewm.jpg">
       <publishTime>09/25/2017 14:41:48</publishTime>
     </File>
     <File Include="assets/images/wechat2.png">
-      <publishTime>09/24/2017 09:45:39</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/weibo.png">
-      <publishTime>09/25/2017 13:56:29</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/weico.png">
-      <publishTime>09/25/2017 18:14:40</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/weixin.png">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/y1.png">
-      <publishTime>09/26/2017 20:10:35</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/y2.png">
-      <publishTime>09/26/2017 20:10:35</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/y3.png">
-      <publishTime>09/26/2017 20:10:35</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/y4.png">
-      <publishTime>09/26/2017 20:10:35</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/zfb.png">
-      <publishTime>09/25/2017 14:41:48</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/images/zhifu.png">
-      <publishTime>09/25/2017 13:56:29</publishTime>
+      <publishTime>09/29/2017 13:37:46</publishTime>
     </File>
     <File Include="assets/js/bootsnav.js">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 15:13:01</publishTime>
     </File>
     <File Include="assets/js/gmaps.min.js">
       <publishTime>09/22/2017 22:57:09</publishTime>
     </File>
     <File Include="assets/js/jquery.easing.1.3.js">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 15:12:58</publishTime>
     </File>
     <File Include="assets/js/jquery.formchimp.js">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 15:12:55</publishTime>
     </File>
     <File Include="assets/js/jquery.magnific-popup.js">
-      <publishTime>09/24/2017 16:52:03</publishTime>
+      <publishTime>09/29/2017 15:12:52</publishTime>
     </File>
     <File Include="assets/js/jquery.touchSwipe.min.js">
       <publishTime>09/22/2017 22:57:09</publishTime>
     </File>
     <File Include="assets/js/main.js">
-      <publishTime>09/24/2017 13:16:49</publishTime>
+      <publishTime>09/29/2017 15:12:48</publishTime>
     </File>
     <File Include="assets/js/plugins.js">
       <publishTime>09/22/2017 22:57:09</publishTime>
     </File>
     <File Include="assets/js/vendor/bootstrap.js">
-      <publishTime>09/22/2017 22:57:09</publishTime>
+      <publishTime>09/29/2017 15:12:44</publishTime>
     </File>
     <File Include="assets/js/vendor/jquery-1.11.2.min.js">
       <publishTime>09/22/2017 22:57:09</publishTime>
@@ -371,7 +386,7 @@
       <publishTime>09/27/2017 21:07:18</publishTime>
     </File>
     <File Include="bin/baconlockeWeb.dll">
-      <publishTime>09/29/2017 12:54:10</publishTime>
+      <publishTime>09/29/2017 15:26:33</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>09/27/2017 17:37:05</publishTime>
@@ -431,7 +446,7 @@
       <publishTime>09/22/2017 22:53:40</publishTime>
     </File>
     <File Include="css/style.css">
-      <publishTime>09/26/2017 18:29:08</publishTime>
+      <publishTime>09/29/2017 15:12:20</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>09/22/2017 23:24:17</publishTime>
@@ -533,10 +548,10 @@
       <publishTime>09/26/2017 16:34:58</publishTime>
     </File>
     <File Include="js/main.js">
-      <publishTime>09/26/2017 16:34:58</publishTime>
+      <publishTime>09/29/2017 15:12:17</publishTime>
     </File>
     <File Include="js/modernizr.js">
-      <publishTime>09/26/2017 16:34:58</publishTime>
+      <publishTime>09/29/2017 15:12:13</publishTime>
     </File>
     <File Include="Models/Customer.edmx.diagram">
       <publishTime>09/27/2017 17:37:09</publishTime>
@@ -560,7 +575,7 @@
       <publishTime>09/27/2017 18:42:50</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.js">
-      <publishTime>09/27/2017 18:42:50</publishTime>
+      <publishTime>09/29/2017 15:09:57</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.min.js">
       <publishTime>09/27/2017 18:42:50</publishTime>
@@ -569,16 +584,16 @@
       <publishTime>09/27/2017 18:42:50</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.js">
-      <publishTime>09/27/2017 18:42:50</publishTime>
+      <publishTime>09/29/2017 15:09:43</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.min.js">
       <publishTime>09/27/2017 18:42:50</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.unobtrusive.js">
-      <publishTime>09/27/2017 18:42:50</publishTime>
+      <publishTime>09/29/2017 15:09:40</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.unobtrusive.min.js">
-      <publishTime>09/27/2017 18:42:50</publishTime>
+      <publishTime>09/29/2017 15:09:36</publishTime>
     </File>
     <File Include="Scripts/modernizr-2.6.2.js">
       <publishTime>09/27/2017 18:42:50</publishTime>
@@ -590,7 +605,7 @@
       <publishTime>09/27/2017 18:42:50</publishTime>
     </File>
     <File Include="scss/style.scss">
-      <publishTime>09/26/2017 16:34:58</publishTime>
+      <publishTime>09/29/2017 14:55:19</publishTime>
     </File>
     <File Include="Views/CustomerTable/Create.cshtml">
       <publishTime>09/27/2017 18:50:04</publishTime>
@@ -608,34 +623,34 @@
       <publishTime>09/27/2017 17:38:22</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
-      <publishTime>09/28/2017 11:55:56</publishTime>
+      <publishTime>09/29/2017 14:18:06</publishTime>
     </File>
     <File Include="Views/Home/Advantage.cshtml">
-      <publishTime>09/28/2017 10:45:27</publishTime>
+      <publishTime>09/29/2017 15:19:52</publishTime>
     </File>
     <File Include="Views/Home/Contact.cshtml">
-      <publishTime>09/27/2017 19:52:59</publishTime>
+      <publishTime>09/29/2017 14:28:29</publishTime>
     </File>
     <File Include="Views/Home/Details.cshtml">
       <publishTime>09/27/2017 19:27:04</publishTime>
     </File>
     <File Include="Views/Home/Download.cshtml">
-      <publishTime>09/26/2017 16:51:01</publishTime>
+      <publishTime>09/29/2017 14:35:41</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>09/29/2017 12:47:05</publishTime>
+      <publishTime>09/29/2017 13:44:38</publishTime>
     </File>
     <File Include="Views/Home/Methodogy.cshtml">
       <publishTime>09/22/2017 23:25:43</publishTime>
     </File>
     <File Include="Views/Home/StudentCase.cshtml">
-      <publishTime>09/28/2017 11:55:21</publishTime>
+      <publishTime>09/29/2017 14:16:51</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>09/22/2017 22:53:34</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>09/29/2017 12:48:39</publishTime>
+      <publishTime>09/29/2017 13:40:46</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>09/22/2017 22:53:34</publishTime>
@@ -644,7 +659,7 @@
       <publishTime>09/22/2017 22:53:34</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/27/2017 20:30:42</publishTime>
+      <publishTime>09/27/2017 21:07:42</publishTime>
     </File>
   </ItemGroup>
 </Project>
