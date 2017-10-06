@@ -1,0 +1,4 @@
+﻿[zh-CN]
+@import url(zh-CN/viewer1.txt)
+
+
