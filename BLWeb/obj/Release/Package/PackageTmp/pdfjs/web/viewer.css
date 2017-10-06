@@ -366,7 +366,7 @@ html[dir='rtl'] .innerCenter {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 200px;
+    width: 300px;
     visibility: hidden;
     -webkit-transition-duration: 200ms;
     -webkit-transition-timing-function: ease;
@@ -377,7 +377,7 @@ html[dir='rtl'] .innerCenter {
 html[dir='ltr'] #sidebarContainer {
     -webkit-transition-property: left;
     transition-property: left;
-    left: -200px;
+    left: -300px;
 }
 
 html[dir='rtl'] #sidebarContainer {
@@ -415,7 +415,7 @@ html[dir='rtl'] #outerContainer.sidebarOpen > #sidebarContainer {
 html[dir='ltr'] #outerContainer.sidebarOpen > #mainContainer {
     -webkit-transition-property: left;
     transition-property: left;
-    left: 200px;
+    left: 300px;
 }
 
 html[dir='rtl'] #outerContainer.sidebarOpen > #mainContainer {
@@ -430,7 +430,7 @@ html[dir='rtl'] #outerContainer.sidebarOpen > #mainContainer {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
     position: absolute;
-    width: 200px;
+    width: 300px;
     background-color: hsla(0,0%,0%,.1);
 }
 
@@ -476,7 +476,7 @@ html[dir='rtl'] #viewerContainer {
 }
 
 #toolbarSidebar {
-    width: 200px;
+    width: 300px;
     height: 32px;
     background-color: #424242; /* fallback */
     background-image: url(images/texture.png), linear-gradient(hsla(0,0%,30%,.99), hsla(0,0%,25%,.95));
@@ -1334,10 +1334,10 @@ html[dir='rtl'] .verticalToolbarSeparator {
 
 #thumbnailView {
     position: absolute;
-    width: 120px;
+    width: 250px;
     top: 0;
     bottom: 0;
-    padding: 10px 40px 0;
+    padding: 10px 25px 0;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
 }
@@ -1404,7 +1404,7 @@ a:focus > .thumbnail > .thumbnailSelectionRing,
 #outlineView,
 #attachmentsView {
     position: absolute;
-    width: 192px;
+    width: 292px;
     top: 0;
     bottom: 0;
     overflow: auto;
