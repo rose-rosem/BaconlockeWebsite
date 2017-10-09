@@ -69,3 +69,4 @@ D:\plkjgit\BaconlockeWebsite\BLWeb\bin\zh-Hans\System.Web.WebPages.Deployment.re
 D:\plkjgit\BaconlockeWebsite\BLWeb\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
 D:\plkjgit\BaconlockeWebsite\BLWeb\obj\Debug\BLWeb.dll
 D:\plkjgit\BaconlockeWebsite\BLWeb\obj\Debug\BLWeb.pdb
+D:\plkjgit\BaconlockeWebsite\BLWeb\obj\Debug\BLWeb.csprojResolveAssemblyReference.cache

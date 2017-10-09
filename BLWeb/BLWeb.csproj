@@ -474,6 +474,7 @@
     <Content Include="pdfjs\web\locale\locale.txt" />
     <Content Include="pdfjs\web\locale\zh-CN\viewer1.txt" />
     <Content Include="pdfjs\web\语言的迷惑.pdf" />
+    <Content Include="pdfjs\web\BP.pdf" />
     <None Include="Properties\PublishProfiles\baconlocke.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="pdfjs\build\pdf.js" />
@@ -576,7 +577,9 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

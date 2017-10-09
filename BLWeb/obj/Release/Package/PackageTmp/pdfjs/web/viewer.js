@@ -7983,7 +7983,7 @@ window.addEventListener('keydown', function keydown(evt) {
                 break;
         }
     }
-
+     
     if (ensureViewerFocused && !pdfViewer.containsElement(curElement)) {
         // The page container is not focused, but a page navigation key has been
         // pressed. Change the focus to the viewer container to make sure that
